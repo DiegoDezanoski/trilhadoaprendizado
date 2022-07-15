@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tags Html</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="icon" href="img/favicn.ico" type="image/x-icon">
+    <script src='main.js'></script>
+</head>
+<body>
+<h1>Listas de tag explicadas nesta pagina:</h1>
+  <strong> <a href ="#table">Table; </a></strong><br><br>
+  <strong> <a href ="#del"> Del; </a></strong><br><br>
+  <strong> <a href ="#ins"> Ins; </a></strong><br><br>
+  <strong> <a href ="#sub"> Sub; </a></strong><br><br>
+  <strong> <a href ="#sup"> Sup; </a></strong><br><br>
+  <strong> <a href ="#blockquote"> Blockquote; </a></strong><br><br>
+  <strong> <a href ="#q"> Q; </a></strong><br><br>
+  <strong> <a href ="#abbr"> Abbr; </a></strong><br><br>
+  <strong> <a href ="#address"> Address; </a></strong><br><br>
+  <strong> <a href ="#cite"> Cite; </a></strong><br><br>
+  <strong> <a href ="#bdo"> Bdo; </a></strong><br><br>
+  <strong> <a href ="#code"> Code; </a></strong><br> <br>
+  <strong> <a href ="#pre"> Pre; </a></strong><br><br>
+  <strong> <a href ="#kbd"> Kbd; </a></strong><br><br>
+
+  <h1 id="table" >Tag &lt; Table &gt; </h1>
+    <p> Como o nome ja diz, cria uma tabela sobre os dados inseridos</p>p>
+
+  <h5>Sobre como direcionar as celulas na tabela</h5>
+    <p>Cada célula da tabela é definida por um &lt; td &gt; e uma &lt; /td> &gt; </p>
+
+    <p>Tudo entre &lt; td &gt; e &lt; /td; &gt; são o conteúdo da célula da tabela.</p>
+
+  <h5>Linhas da tabela</h5>
+    <p>Cada linha da tabela começa com a &lt;tr &gt;e termina com uma &lt;/tr &gt;tag.</p>
+
+  <h5>Cabeçalhos de tabela</h5>
+    <p>Para adicionar cabeçalhos é usada a tag &lt; th &gt;:
+  <h2>Exemplo de tabela</h2>
+  <table border="1" >
+      <tr>
+      <th>Aluno 1</th>
+      <th>Aluno 2</th>
+      <th>Aluno 3</th>
+      <th>Aluno 4</th>
+      </tr>
+
+    <tr>
+      <td>Michael Jakson</td>
+      <td>Ana kaite</td>
+      <td>Germanio Quadros</td>
+      <td>Herman frederiksem</td>
+    </tr>
+    <tr>
+      <td>Pindamonhangaba</td>
+      <td>Irati</td>
+      <td>Alagoas</td>
+      <td>Oslo</td>
+    </tr>
+    <tr>
+      <td>999797977</td>
+      <td>979998523</td>
+      <td>788555855</td>
+      <td>725899999</td>
+    </tr>
+    <tr>
+      <td>Rua Carlos Silveira </td>
+      <td>Rua XV de novembro</td>
+      <td>Rua da Liberdade </td>
+      <td>Rua New Orleans </td>
+    </tr>
+  </table>
+
+  <h4>Codigo da tabela anterior:</h4>
+
+  &lt; table border="1"&gt;  &lt;/table &gt;
+    <pre>&lt; tr &gt;
+    &lt; th &gt; Aluno 1 &lt; /th &gt;
+    &lt; th&gt; Aluno 2 &lt;/th&gt; 
+    &lt; th&gt; Aluno 3 &lt;/th &gt; 
+    &lt; th&gt; Aluno 4 &lt;/th &gt; 
+    &lt; /tr &gt; 
+
+    &lt; tr &gt;
+
+    &lt; td &gt; Michael Jakson &lt;/td &gt; 
+    &lt; td &gt; Ana kaite &lt;/td &gt; 
+    &lt; td &gt; Germanio Quadros &lt;/td &gt; 
+    &lt; td &gt; Herman frederiksem &lt;/td &gt; 
+    &lt; /tr &gt; 
+
+    &lt; tr &gt;
+    &lt; td &gt; Pindamonhangaba &lt;/td &gt; 
+    &lt; td &gt; Irati &lt;/td &gt; 
+    &lt; td &gt; Alagoas &lt;/td &gt; 
+    &lt; td &gt; Oslo &lt;/td &gt; 
+    &lt; /tr &gt; 
+    &lt; tr &gt;
+    &lt; td &gt; >999797977 &lt;/td &gt; 
+    &lt; td &gt; 979998523 &lt;/td &gt; 
+    &lt; td &gt; 788555855 &lt;/td &gt; 
+    &lt; td &gt; 725899999 &lt;/td &gt; 
+    &lt; /tr &gt;  
+
+    &lt; tr &gt;
+    &lt; td &gt; Rua Carlos Silveira &lt;/td &gt; 
+    &lt; td &gt; Rua XV de novembro &lt;/td &gt; 
+    &lt; td &gt; Rua da Liberdade &lt;/td &gt; 
+    &lt; td &gt; Rua New Orleans &lt;/td &gt; 
+    &lt; /tr &gt; </pre> 
+  </table>
+  <hr>
+
+  <h1 id="del" >Tag&lt;del&gt;</h1>
+    <p> Serve quando é mostrado uma parte do texto que foi excluida e a parte nova inserida</p>
+    <p>O meu hobbie é <del>ler</del> <ins>caminhar</ins> !</p>
+
+  <h4>Codigo do exemplo usando essa tag :</h4>
+      <pre> &lt; p &gt; O meu hobbie é &lt; del &gt;ler&lt; /del &gt; &lt; ins &gt;caminhar&lt; /ins &gt; !  &lt; /p &gt;</pre> 
+  <hr>
+    
+  <h1 id="ins">Tag&lt; Ins&gt;</h1>
+    <p>Apos uma parte excluida a tag is serve para mostrar a nova parte inserida, geralmente que esta sob a ins fica sublinhado</p>
+    <p>O meu novo hobbie é <del>ler</del> <ins>caminhar</ins> !</p>
+  <h4>Codigo do exemplo usando essa tag :</h4>
+      <pre> &lt; p &gt; O meu novo hobbie é &lt; del &gt;ler&lt; /del &gt; &lt; ins &gt;caminhar&lt; /ins &gt; !  &lt; /p &gt;</pre> 
+  <hr>
+
+  <h1 id="sub"> Tag&lt;sub&gt;</h1>
+
+    <p>Tal tag serve para subscrever o texto. O texto aparece meio caractere abaixo da linha normal. </p>
+    <p>Este texto contem parte <sub>subscrita</sub> .</p>
+    <h4>Codigo do exemplo usando essa tag :</h4>
+      <pre> &lt; p &gt; Este texto contem parte  &lt; sub &gt;subscrita&lt; /sub &gt;. &lt; /p &gt;</pre> 
+  <hr>
+
+  <h1 id="sup">Tag &lt;sup&gt;</h1>
+
+    <p> Tag usada a fim de fazer o contrario da tag sub, esta traz o texto sobrescrito</p>
+    <p>Este texto contem parte <sup>sobrescrita</sup>.</p>
+
+    <h4>Codigo do exemplo usando essa tag :</h4>
+      <pre> &lt; p &gt; Este texto contem parte  &lt; sup &gt;sobrescrita&lt; /sup &gt;. &lt; /p &gt;</pre> 
+  <hr>
+
+  <h1 id="blockquote">Tag &lt; blockquote&gt;</h1>
+
+    <p>tag especifica uma seção que é citada de outra fonte. </p>
+    <p>Ex:"" O Brasil é um pais latino americano e de grande extensao e com grande população."</p>
+    <blockquote cite="https://pt.wikipedia.org/wiki/Brasil">
+    Brasil oficialmente República Federativa do Brasil, é o maior país da América do Sul e da região da América Latina, sendo o quinto maior do mundo em área territorial (equivalente a 47,3% do território sul-americano), com 8 510 345,538 km², e o sexto em população (com mais de 213 milhões de habitantes). 
+     </blockquote>
+    <h4>Codigo do exemplo usando essa tag :</h4>
+
+      <pre> &lt;p&gt; Ex:"" O Brasil é um pais latino americano e de grande extensao e com grande população." &lt;/p&gt;
+      &lt; blockquote cite="https://pt.wikipedia.org/wiki/Brasil"&gt;
+      Brasil oficialmente República Federativa do Brasil, é o maior país da América do Sul e da região da América Latina, sendo o quinto maior do mundo em área territorial (equivalente a 47,3% do território sul-americano), com 8 510 345,538 km², e o sexto em população (com mais de 213 milhões de habitantes). 
+      &lt; /blockquote &gt;</pre>
+  <hr>
+
+  <h1 id="q">Tag  &lt;q &gt;</h1>
+    </p>Serve para definri citacpes curtas, tem o mesmo uso que a tag blockquote, embora a tag q se dirija a citações curtas</p>
+    <p>Ex: "A importacia do HTML:
+    <q> é importante para gerar documentos para a web de forma fácil, assegurando a acessibilidade das páginas e sua transmissão pela internet</q> </p>
+      <h4>Codigo do exemplo usando essa tag :</h4>
+        <pre> &lt; p &gt; Ex: "A importacia do HTML:  &lt; q &gt;É importante para gerar documentos para a web de forma fácil, assegurando a acessibilidade das páginas e sua transmissão pela internet&lt; /q &gt;. &lt; /p &gt;</pre>
+  <hr>
+  <h1 id="abbr">Tag  &lt;abbr &gt;</h1>
+    <p>Serve para marcar abreviações,ou acrônimo<br>
+    Ex:</p> O <abbr title="Imposto sobre a propriedade de veículos automotores">IPVA</abbr> foi fundado em 1948.
+      <h4>Codigo do exemplo usando essa tag :</h4>
+        <pre> &lt; p &gt; O &lt; abbr title="Imposto sobre a propriedade de veículos automotores"&gt;IPVA&lt; /abbr&gt;foi fundado em 1948.&lt;/p&gt;</pre>
+  <hr>
+
+  <h1 id="address">Tag  &lt;address &gt;</h1>
+    <p>Serve para marcar imformações de contato </p>
+    <p>Exemplo:</p>
+    <address>
+      Escrito por <a href="mailto:diegodezanoski@gmail.com">Diego Dezanoski</a>.<br> 
+      Visite-o em:<br>
+      Irati-PR<br>
+      Box 999, roundabout City<br>
+      BRA
+    </address>
+      <h4>Codigo do exemplo usando essa tag :</h4>
+        <pre>
+          &lt; address &gt;  Escrito por &lt; a href ="mailto:diegodezanoski@gmail.com"&gt;Diego Dezanoski&lt; /a &gt;. &lt; br &gt;
+          Visite-o em: &lt; br &gt;
+          Irati-PR &lt; br &gt;
+          Box 999, roundabout City &lt; br &gt;
+          BRA &lt; br &gt;
+          &lt;/address&gt;
+          </pre> 
+  <hr>
+
+  <h1 id="cite">Tag  &lt;cite &gt; </h1>
+    <p>Serve para marcar o titulo de um trabalho, como por exemplo, um livro, poema, musica, fulme, pintura, escultura, fotografia </p>
+    <img src="img/escola.atenas.jpg" width="300" height="300 alt="Escola de Atenas">
+    <p><cite> A escola de Atenas</cite> de Rafael Sanzio.Foi pintada entre 1509 e 1510.</p>
+      <h4>Codigo do exemplo usando essa tag :</h4>
+        <pre> &lt; img src= "img/escola.atenas.jpg" width="300" height="300 alt="Escola de Atenas" &gt; &lt; p &gt; &lt; cite &gt; A escola de Atenas &lt; /cite &gt; de Rafael Sanzio. Foi pintada entre 1509 e 1510.sobrescrita. &lt; /p &gt;</pre> 
+  <hr>
+  <h1 id="bdo">Tag  &lt;bdo &gt; </h1>
+    <p>Serve para especificar a direcao do texto, da esquerda para direita. Uma substiuição bidirecional
+    Com o atrivuto dir que apos isso recebera valores: <br>
+    ltr: Indica que o texto será da Esquerda para a Direita ( L eft- T o- R ight).
+    <br>ou<br>
+    rtl: Indica que o texto ficará da Direita  para a Esquerda  ( R eft- T o- Light )<br> 
+    Exemplo:</p>
+
+    <bdo dir="rtl">
+    <p>Este paragrafo irá da esquerda para a direita.</p>
+    </bdo><br>
+    <bdo dir="ltr">
+    <p>Este paragrafo irá da direita para a esquerda.</p>
+    </bdo>
+
+      <h4>Codigo do exemplo usando essa tag :</h4>
+        <pre> 
+          &lt; bdo dir="rtl"&gt;
+          &lt;p&gt;Este paragrafo irá da esquerda para a direita.&lt;/p&gt;
+          &lt;/bdo&gt;
+          &lt;br&gt;
+    
+          &lt;bdo dir="ltr"&gt;
+          &lt;Este paragrafo irá da direita para a esquerda.&lt;/p&gt;
+          &lt;/bdo&gt;</pre> 
+<hr>
+
+  <h1 id="code">Tag  &lt;code&gt;</h1>
+    <p>é usada para definir um pedaço de código de computador. O conteúdo interno é exibido na fonte monoespaçada padrão do navegador.</p>
+    <p>Exemplo:</p>
+
+    <p>Texto de inicio <code>(Codigo ou funcao a ser colocada)</code>. Restante do texto.</p>
+
+      <h4>Codigo do exemplo usando essa tag :</h4>
+        <pre> &lt; p &gt; Texto de inicio &lt; code &gt;(Codigo ou funcao a ser colocada)&lt;/code&gt;. Restante do texto.&lt;/p&gt;</pre>
+<hr>
+
+  <h1 id="pre">Tag   &lt;pre&gt;</h1>
+    <p>Serve para marcarção de um texto pre formatado, O texto nessa tag é exibido em uma fonte de largura fixa e o texto preserva espaços e quebras de linha.<br>Exemplo a abaixo:</p> 
+
+    <pre>Era uma vez uma feliz família de porquinhos que tinha três filhos. Os porquinhos foram crescendo e os pais notavam que estavam muito dependentes. Não ajudavam no trabalho de casa nem se esforçavam em nada...</pre>
+
+      <h4>Codigo do exemplo usando essa tag :</h4>
+        pre> &lt; pre &gt; Era uma vez uma feliz família de porquinhos que tinha três filhos. Os porquinhos foram crescendo e os pais notavam que estavam muito dependentes. Não ajudavam no trabalho de casa nem se esforçavam em nada...  &lt; pre &gt; 
+<hr>
+
+  <h1 id="kbd">Tag  &lt;kbd&gt; </h1>
+    <p> Defina algum texto como entrada de teclado em um documento:<br>Exemplo: <br></p>
+    <p>Exemplo:</p>
+    <p>Clique <kbd>Ctrl</kbd> + <kbd>C</kbd> Para copiar este texto (Windows).</p>
+    <p>Clique<kbd>Cmd</kbd> + <kbd>C</kbd> Para copiar este texto (Mac OS).</p>
+
+    <h4>Codigo do exemplo usando essa tag :</h4>
+      <pre> &lt; p &gt; Clique &lt;kbd&gt; Ctrl &lt; /kbd &gt;+ &lt; kbd &gt;C &lt;/kbd&gt; Para copiar este texto (Windows).&lt; /p &gt;
+      &lt; p &gt; Clique &lt;kbd&gt; Cmd &lt; /kbd &gt;+ &lt; kbd &gt;C &lt;/kbd&gt; Para copiar este texto (Mac OS).&lt; /p &gt;
+      </pre> 
+<hr>
+<h2>Referencias:</h2> 
+<p>Nestes site a seguir foi pesquisado as tags explicadas nesta pagina.</p>
+
+    <a href="https://www.w3schools.com/" target="_blank"> W3shool</a> <br>
+    <a href="https://developer.mozilla.org/en-US/" target="_blank"> Developer.mozilla.org </a> 
+
+</body>
+</html>
