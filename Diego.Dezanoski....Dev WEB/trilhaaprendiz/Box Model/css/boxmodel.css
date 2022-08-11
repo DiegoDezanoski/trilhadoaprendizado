@@ -1,0 +1,170 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 35px; /*Utilizando margem com shorthand*/
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+    margin-left: 120px;
+    border-style: solid;
+    border-width: 15px;
+    border-style: groove;
+    border-color: rgb(7, 6, 56);
+    border-top-color: rgb(7, 62, 133);
+    border-right-color: rgb(43, 159, 226);
+    border-bottom-color: rgb(130, 145, 47);
+    border-left-color:rgb(80, 121, 255) ;
+    /*padding-top: 10px   ;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;*/
+
+    padding:45px 50px;/*atalho para definir respctivamente preenchimento com 40px acima e 50px diereita e esquerda*/
+ 
+}
+
+h1{
+    background-color: darkblue;
+    color:rgb(29, 160, 160);
+    padding: 6px;
+}
+
+span{
+    background-color: rgb(112, 197, 236);
+    color: white;
+   /* display: block;/*altera a propriedade inline para block e vice versa */
+}
+
+p{
+    background-color: rgb(30, 187, 114);
+    color: white;
+    display: inline;/*ALTERA A propriedade de block para inline e vice-versa*/
+}
+
+div{
+    background-color: darkgreen;
+    border:solid;
+    margin: 10px;
+    padding: 11px;
+   
+}
+
+.box1{
+    background-color:darkslategrey;
+    width: 400px;
+    height: 50px;
+    position: static;/*não sai do lugar mesmo tentando manipular!!!!!!!!!!!!*/
+    top: 500px;/*so funciona junto a propriendade position!!!!!!*/
+    left: 500px;/*so funciona junto a propriendade position!!!!!!*/
+}
+
+.box2{
+    background-color: chocolate;
+    width: 400px;
+    height: 50px;
+    position: relative; 
+    top: 100px;
+    left: 450px;
+}
+
+.box3{
+    background-color: burlywood;
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 500;
+
+
+
+}
+
+.box4{
+    background-color: rgb(116, 73, 24);
+    width: 400px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    right:0px
+}
+
+.box5{
+    background-color: rgb(33, 102, 16);
+    width: 400px;
+    height: 50px; 
+    position: sticky;
+    top: 6px;
+    bottom:200px;
+    left: 150px;
+}
+
+
+
+
+
+
+.layer1{
+    background-color: rgb(16, 102, 66);
+    width: 400px;
+    height: 50px;
+
+}
+.layer2{
+    background-color: rgb(221, 120, 120);
+    width: 400px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
