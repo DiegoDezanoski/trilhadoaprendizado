@@ -1,0 +1,62 @@
+body{
+   
+    background-image: url("fundo_index.jpg");
+}
+
+div{
+   
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.principal{
+flex-direction: row;
+display: flex;
+ 
+
+}
+
+
+.logo{
+    justify-content:left;
+    display: flex;
+    margin-right: 25px;
+
+    border: 20px ;
+    margin:1px;
+    padding: 3px;
+
+}
+
+.navbar{
+   /* color:rgb(96, 175, 23);*/
+    align-self: center;
+    margin-right: 25px;
+    width: 100%;
+    justify-content:end;
+    display: flex;
+
+}
+
+.imagem{
+    justify-content:center;
+    display: flex; 
+}
+
+.texto{
+    color: black;
+    background-color: white;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rodape{
+    color: black;
+    background-color: white;
+    justify-content:center;
+    display: flex;
+    margin: 50px;
+    border: 20px;
+}
+

@@ -1,0 +1,56 @@
+div{
+    background-color: purple;
+
+}
+
+.b1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color:rgb(23, 23, 175);
+    background-color: darkgoldenrod;
+    border: 2px solid cadetblue;
+    margin:10px;
+    padding: 10px;
+    width: 75px;
+    height: 20px;
+
+
+    
+}
+
+.b2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color:yellow;
+    background-color:navy;
+    border: 2px solid crimson;
+    margin:10px;
+    padding: 10px;
+    width: 89px;
+    height: 30px;
+}
+
+ .agrupamento{
+
+    background-color: lightgray;
+    padding:20px;
+    margin:10px;
+    border: 1px solid;
+ }
+
+#ei{
+    font-size: large;
+    background-color: lightblue;
+    padding:20px;
+    margin:10px;
+    border: 1px solid cadetblue;
+}
+
+
+
+
+
+
+
+
+
+
+
