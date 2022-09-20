@@ -1,0 +1,75 @@
+
+body{/*altera propriedade gerais do conteudo html*/
+
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%; /*largura total so corpo do texto*/
+    margin: 0 auto; /* centraliza o conteudo */
+    background-image: linear-gradient(to right, #0b1726,#1f3f66);
+}
+
+header{/*define o cabeçalho do site*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#161616 ;
+    border-radius: 5px; /*arredonda os cantos de um elemento*/
+    margin-top: 10px;
+
+}
+
+.logo img { /*alterção da div logo especificamente na tag img */
+width: 50%; /*aumenta ou diminiu a imagem*/
+/*se coloca percentagem para que o tamamho se atualize com  a resolucao utilizada,se for em px o tammhnho permanecera o mesmo**/
+padding-top: 50px; /*desceu 50 px o "texto" do logo*/
+
+}
+
+.navegacao{
+    overflow: hidden; /*esconde o scrool lock, (bara de rolagem)*/
+
+}
+
+.navegacao a{/*altera os hiperlinks da classe navegação*/
+    float: right; /*posiciona o conteúdo em relação a direita*/
+    color: rgb(171,173,173); /*trocou a cor dos links*/
+    text-decoration: none; /*muda o hiperlink , como este "none" que retira a linha dos hiperlinks*/
+    padding: 10px;
+
+}
+
+.navegacao a:hover{ /*mudou a cor dos hiperlinks ao passar o mouse por cima*/
+    color:#e32936;
+   /* background-image: linear-gradient(to right, #0b1726,#1f3f66);/*mudou a cor ao passar o mouse*/
+    background-color: aqua; /*mudou ao passar o maouse o hiperlink*/
+
+}
+.principal{
+    display:flex; /*deixou um ao lado do outro*/
+    flex-direction: row;
+    
+
+
+}
+
+
+.conteudo{
+    float: left;
+    margin: 15px 15px 25px 2px; /*define margens em relacao ao body*/
+    background-color: gainsboro;
+    text-align: justify;/*deixa o texto justificado*/
+    padding: 15px;/*para o texto não ficar colado no card*/
+    border-radius: 5px;/*cantos arredondados*/
+    box-shadow: 10px 10px 10px rgb(11, 87, 131) ;/*define sombras */
+}
+
+.rodape{
+    color: darkgray;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media screen and (max-width:600px){
+    .principal,.conteudo{
+        width:100%;
+        flex-direction: column;
+        padding: 0px;
+    }
+}
