@@ -1,7 +1,7 @@
 body{/*altera propriedade gerais do conteudo html*/
 
     font-family: Arial, Helvetica, sans-serif;
-    width: 90%; /*largura total so corpo do texto*/
+    width: 80%; /*largura total so corpo do texto*/
     margin: 0 auto; /* centraliza o conteudo */
     background-color:#1f3f66;
    
@@ -44,16 +44,12 @@ padding-top: 25px; /*desceu 50 px o "texto" do logo*/
     background-color: aqua; /*mudou ao passar o maouse o hiperlink*/
 
 }
-.principal{
-   display:flex; /*deixou um ao lado do outro*/
-    flex-direction: row;
 
-}
 
 
 .conteudo{
     float: left;
-    margin: 15px 15px 25px 2px; /*define margens em relacao ao body*/
+    margin: 0px 15px 0px 2px; /*define margens em relacao ao body*/
 
     background-color: gainsboro;
     text-align: justify;/*deixa o texto justificado*/
@@ -62,9 +58,7 @@ padding-top: 25px; /*desceu 50 px o "texto" do logo*/
      
 }
 
-.central{
-    width:450%;
-}
+
 
 
 .rodape{
@@ -73,10 +67,10 @@ padding-top: 25px; /*desceu 50 px o "texto" do logo*/
     font-size: 10px;
 }
 
-@media screen and (max-width:800px){
-    .principal,.conteudo.central, .conteudo.lateral{
+/*@media screen and (max-width:600px){
+    .principal,.conteudo{
         width:100%;
-      
+        flex-direction: column;
         padding: 0px;
     }
-}
+}*/
