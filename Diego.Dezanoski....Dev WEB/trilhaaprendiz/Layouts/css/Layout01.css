@@ -45,10 +45,7 @@ padding-top: 50px; /*desceu 50 px o "texto" do logo*/
     display:flex; /*deixou um ao lado do outro*/
     flex-direction: row;
     
-
-
 }
-
 
 .conteudo{
     float: left;
