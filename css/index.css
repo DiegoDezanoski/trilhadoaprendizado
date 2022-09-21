@@ -1,0 +1,28 @@
+
+    body{
+        background-image: linear-gradient(to right, #00FA9A,#40E0D0);
+        /*background-color: rgb(113, 255, 77, 0.753);*/
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h1{
+        background-color: darkred;
+        color: rgb(122, 233, 233);
+        text-align: center;
+    }
+
+    h2{
+         text-align: center;
+    
+    color: rgb(18, 21, 214);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h4{
+        color: darkred;
+    }
+    h3{
+        color: rgb(209, 0, 0);
+    }
+    a{
+        color: rgb(29, 26, 190);
+        font-size: 20px;
+    }
