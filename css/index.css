@@ -107,7 +107,7 @@ h1{
         font-size: 12px;
     }
     @media screen and (max-width:600px){
-        .principal,.conteudo.central, .sapo, #tabel01, .hino, .audio{
+        .principal,.text{
             width:100%;
             padding: 5px;
         }
